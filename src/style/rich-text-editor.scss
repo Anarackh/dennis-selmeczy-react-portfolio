@@ -1,0 +1,29 @@
+.DraftEditor-root {
+    border: 1px solid $teal;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.rdw-editor-toolbar {
+    border: 1px solid $teal;
+
+    .rdw-option-wrapper {
+        border: 1px solid $teal;
+    }
+
+    .rdw-dropdown-wrapper {
+        border: 1px solid $teal;
+    }
+}
+
+.rdw-image-modal {
+    left: -214px;
+}
+
+.rdw-emoji-modal {
+    left: -169px;
+}
+
+.rdw-embedded-modal {
+    left: -124px;
+}

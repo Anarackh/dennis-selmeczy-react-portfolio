@@ -42,6 +42,10 @@
             font-size: 1.5em;
         }
 
+        .blog-item-title {
+            color: $teal;
+        }
+
         .featured-image-wrapper {
             img {
                 margin: 15px 0px;
@@ -49,6 +53,23 @@
                 height: 350px;
                 border-radius: 5px;
                 object-fit: cover;
+            }
+        }
+    }
+
+    .admin-blog-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .trash-icon {
+            margin-left: 15px;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+            font-size: 1.3em;
+
+            &:hover {
+                color: $warning;
             }
         }
     }
